@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luis Miguel Neitzel · Analista e Desenvolvedor de Sistemas</title>
+  <meta name="description" content="Portfólio de Luis Miguel Neitzel, Analista e Desenvolvedor de Sistemas com foco em sistemas para a gestão pública e a área contábil. Modelagem, escalabilidade e segurança; Java, Spring Boot, APIs REST e PostgreSQL.">
+  <meta name="author" content="Luis Miguel Neitzel">
+  <meta name="theme-color" content="#0a0c10">
+
+  <!-- Depois de publicar, troque pelo endereço real (ex.: https://usuario.github.io/repositorio/) -->
+  <link rel="canonical" href="https://lmneitzel.github.io/portifolio/">
+
+  <!-- Compartilhamento em redes sociais -->
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Luis Miguel Neitzel · Analista e Desenvolvedor de Sistemas">
+  <meta property="og:description" content="Desenvolvimento de sistemas para a gestão pública, com foco na área contábil. Modelagem, escalabilidade e segurança.">
+  <!-- Para exibir imagem no compartilhamento, adicione uma imagem 1200x630 e use a URL absoluta: -->
+  <!-- <meta property="og:image" content="https://SEU-USUARIO.github.io/SEU-REPOSITORIO/assets/img/og-image.png"> -->
+  <meta property="og:url" content="https://lmneitzel.github.io/portifolio/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Luis Miguel Neitzel · Analista e Desenvolvedor de Sistemas">
+  <meta name="twitter:description" content="Desenvolvimento de sistemas para a gestão pública, com foco na área contábil.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Luis Miguel Neitzel",
+    "jobTitle": "Analista e Desenvolvedor de Sistemas",
+    "email": "mailto:luismiguelneitzel@gmail.com",
+    "sameAs": ["https://www.linkedin.com/in/luismiguelneitzel/"],
+    "knowsAbout": ["Contabilidade aplicada ao setor público", "Modelagem de dados", "Java", "Spring Boot", "APIs REST", "PostgreSQL", "ERP"]
+  }
+  </script>
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="topo">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="Luis Miguel Neitzel, voltar ao início">
+        <span class="brand-mark" aria-hidden="true">LN</span>
+        <span class="brand-name">Luis Miguel Neitzel</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-links" id="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#experiencia">Trajetória</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#conhecimentos">Conhecimentos</a></li>
+        <li><a href="#curriculo">Currículo</a></li>
+        <li><a class="nav-cta" href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo" tabindex="-1">
+    <!-- APRESENTAÇÃO -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Analista e Desenvolvedor de Sistemas</p>
+          <h1 id="hero-title">Luis Miguel<br><span class="accent">Neitzel</span></h1>
+          <p class="lead">
+            Acredito que desenvolver bons sistemas vai além de escrever código.
+            É preciso compreender as necessidades, entender as regras de negócio e construir soluções eficientes, consistentes e bem estruturadas.
+          </p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#curriculo">Ver currículo</a>
+            <a class="btn btn-ghost" href="#projetos">Conhecer projetos</a>
+            <a class="btn btn-link" href="#contato">Entrar em contato <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <div class="hero-photo reveal">
+          <!-- Substitua assets/img/FOTO_PERFIL.png pela sua foto (quadrada, ~800x800). -->
+          <div class="photo-frame">
+            <span class="photo-fallback" aria-hidden="true">LN</span>
+            <img src="assets/img/FOTO_PERFIL.png" alt="Foto de Luis Miguel Neitzel"
+                 width="800" height="800" fetchpriority="high" decoding="async"
+                 onerror="this.remove()">
+          </div>
+          <div class="photo-meta mono" aria-hidden="true">
+            <span>java</span><span>spring</span><span>postgresql</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section" id="sobre" aria-labelledby="sobre-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-index mono">01</p>
+          <h2 id="sobre-title">Sobre mim</h2>
+        </header>
+        <div class="about-grid">
+          <div class="about-text reveal" data-render="sobre"></div>
+          <ul class="about-cards" data-render="diferenciais" aria-label="Diferenciais" role="list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIÊNCIA -->
+    <section class="section" id="experiencia" aria-labelledby="exp-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-index mono">02</p>
+          <h2 id="exp-title">Trajetória profissional</h2>
+          <p class="section-sub">Minha evolução no desenvolvimento de sistemas para a gestão pública, com foco na área contábil.</p>
+        </header>
+        <ol class="timeline" data-render="experiencias"></ol>
+      </div>
+    </section>
+
+    <!-- FORMAÇÃO -->
+    <section class="section" id="formacao" aria-labelledby="form-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-index mono">03</p>
+          <h2 id="form-title">Formação acadêmica</h2>
+        </header>
+        <ol class="timeline" data-render="formacao"></ol>
+        <p class="section-sub reveal" data-render="formacaoComplemento"></p>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section class="section" id="projetos" aria-labelledby="proj-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-index mono">04</p>
+          <h2 id="proj-title">Projetos pessoais</h2>
+          <p class="section-sub">Onde aplico Java, Spring Boot, APIs REST e PostgreSQL na prática.</p>
+        </header>
+        <div class="projects" data-render="projetos"></div>
+      </div>
+    </section>
+
+    <!-- CONHECIMENTOS -->
+    <section class="section" id="conhecimentos" aria-labelledby="skills-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-index mono">05</p>
+          <h2 id="skills-title">Conhecimentos técnicos</h2>
+          <p class="section-sub">Separados entre o que uso no trabalho e o que aplico em projetos pessoais.</p>
+        </header>
+        <div class="skill-filter reveal" role="group" aria-label="Filtrar conhecimentos por origem">
+          <button type="button" class="chip-btn" aria-pressed="true" data-filter="todos">Todos</button>
+          <button type="button" class="chip-btn" aria-pressed="false" data-filter="profissional"><span class="legend legend-pro" aria-hidden="true"></span>Experiência profissional</button>
+          <button type="button" class="chip-btn" aria-pressed="false" data-filter="projetos"><span class="legend legend-proj" aria-hidden="true"></span>Projetos pessoais</button>
+        </div>
+        <div class="skills" data-render="conhecimentos"></div>
+      </div>
+    </section>
+
+    <!-- CURRÍCULO -->
+    <section class="section" id="curriculo" aria-labelledby="cv-title">
+      <div class="container">
+        <div class="cv-card reveal">
+          <div>
+            <p class="section-index mono">06</p>
+            <h2 id="cv-title">Currículo</h2>
+            <p class="section-sub">Gerado automaticamente a partir das informações deste site, sempre atualizado.</p>
+          </div>
+          <div class="actions">
+            <a class="btn btn-primary" href="curriculo.html?imprimir=1">Baixar PDF</a>
+            <a class="btn btn-ghost" href="curriculo.html">Visualizar currículo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section" id="contato" aria-labelledby="contact-title">
+      <div class="container contact">
+        <header class="section-head reveal">
+          <p class="section-index mono">07</p>
+          <h2 id="contact-title">Vamos conversar</h2>
+          <p class="section-sub">Aberto a oportunidades, trocas técnicas e novos projetos.</p>
+        </header>
+        <ul class="contact-list reveal" data-render="contato" role="list"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span data-year></span> Luis Miguel Neitzel</p>
+      <a href="#inicio">Voltar ao topo <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+
+  <noscript><p class="noscript">Ative o JavaScript para ver todas as seções. Contato: luismiguelneitzel@gmail.com</p></noscript>
+
+  <script src="assets/js/content.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
