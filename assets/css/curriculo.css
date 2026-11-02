@@ -1,0 +1,57 @@
+/* Currículo: claro, sóbrio e pensado para A4. */
+:root { --ink: #14171c; --ink-2: #4a5160; --line: #dde1e8; --accent: #1f5fd1; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #2a2f38; color: var(--ink); font: 400 10.5pt/1.5 "Manrope", system-ui, "Segoe UI", Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+a { color: inherit; text-decoration: none; }
+h1, h2, h3, p { margin: 0; }
+ul { margin: 0; padding: 0; }
+
+.toolbar { position: sticky; top: 0; z-index: 2; display: flex; justify-content: space-between; gap: 12px; padding: 12px 16px; background: #0a0c10; border-bottom: 1px solid #222936; }
+.tb-btn { display: inline-flex; align-items: center; min-height: 40px; padding: 0 18px; border-radius: 999px; border: 1px solid #2c3546; background: transparent; color: #e8ecf3; font: 600 14px/1 "Manrope", system-ui, sans-serif; white-space: nowrap; cursor: pointer; }
+.tb-btn:hover { border-color: #4d8dff; }
+.tb-primary { background: #4d8dff; border-color: #4d8dff; color: #fff; }
+.tb-btn:focus-visible { outline: 2px solid #7fb0ff; outline-offset: 3px; }
+.tb-hint { text-align: center; color: #a3adbf; font-size: 13px; margin: 14px 16px 0; }
+
+.sheet { width: 210mm; max-width: calc(100% - 32px); min-height: 297mm; margin: 20px auto 40px; padding: 16mm 17mm; background: #fff; box-shadow: 0 20px 60px rgba(0,0,0,.4); }
+
+.cv-head { padding-bottom: 12px; border-bottom: 2px solid var(--ink); }
+.cv-head h1 { font-size: 22pt; letter-spacing: -0.02em; line-height: 1.1; }
+.cv-role { color: var(--accent); font-weight: 600; font-size: 11.5pt; margin-top: 4px; }
+.cv-contact { list-style: none; display: flex; flex-wrap: wrap; gap: 2px 16px; margin-top: 8px; font-size: 9.5pt; color: var(--ink-2); }
+
+.cv-sec { margin-top: 14px; }
+.cv-sec h2 { font-size: 9pt; text-transform: uppercase; letter-spacing: .1em; color: var(--accent); padding-bottom: 4px; margin-bottom: 8px; border-bottom: 1px solid var(--line); }
+.cv-sec > p { color: var(--ink); }
+.cv-item { margin-bottom: 10px; break-inside: avoid; }
+.cv-item:last-child { margin-bottom: 0; }
+.cv-item-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.cv-item h3 { font-size: 10.5pt; font-weight: 700; }
+.cv-org { font-weight: 500; color: var(--ink-2); }
+.cv-date { flex: none; font-size: 9pt; color: var(--ink-2); white-space: nowrap; }
+.cv-meta { font-size: 9pt; color: var(--ink-2); }
+.cv-item p + ul, .cv-item .cv-meta + ul { margin-top: 3px; }
+.cv-item ul, .cv-diffs { padding-left: 16px; }
+.cv-item li, .cv-diffs li { margin-top: 2px; }
+.cv-item > p:not(.cv-meta) { margin-top: 2px; }
+.cv-skills { margin: 0; display: grid; gap: 3px; }
+.cv-skills div { display: grid; grid-template-columns: 42mm 1fr; gap: 8px; }
+.cv-skills dt { font-weight: 600; }
+.cv-skills dd { margin: 0; color: var(--ink-2); }
+.cv-foot { margin-top: 18px; padding-top: 8px; border-top: 1px solid var(--line); font-size: 8pt; color: #8a91a0; }
+
+mark.todo { background: #fff4d6; color: #8a5a00; border: 1px dashed #d9a640; border-radius: 3px; padding: 0 3px; }
+
+@media (max-width: 640px) {
+  .sheet { padding: 22px 18px; min-height: 0; }
+  .cv-item-head { flex-direction: column; gap: 0; }
+  .cv-skills div { grid-template-columns: 1fr; gap: 0; }
+}
+
+@page { size: A4; margin: 14mm 15mm; }
+@media print {
+  body { background: #fff; }
+  .toolbar, .tb-hint { display: none; }
+  .sheet { width: auto; max-width: none; min-height: 0; margin: 0; padding: 0; box-shadow: none; }
+  .cv-sec h2 { break-after: avoid; }
+}
