@@ -17,8 +17,7 @@
     ct.telefone && `<li>${esc(ct.telefone)}</li>`,
     C.perfil.local && `<li>${txt(C.perfil.local)}</li>`,
     ct.linkedin && `<li><a href="${esc(ct.linkedin)}">${esc(ct.linkedin.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""))}</a></li>`,
-    ct.github && `<li><a href="${esc(ct.github)}">${esc(ct.github.replace(/^https?:\/\//, ""))}</a></li>`,
-    site && `<li><a href="${esc(site)}">${esc(siteLabel)}</a></li>`
+    ct.github && `<li><a href="${esc(ct.github)}">${esc(ct.github.replace(/^https?:\/\//, ""))}</a></li>`
   ].filter(Boolean).join("");
 
   document.getElementById("cv").innerHTML = `
@@ -63,6 +62,8 @@
         <p>${txt(p.descricao)}</p>
         <p class="cv-meta">${p.tecnologias.map(esc).join(" · ")}${p.repositorio ? ` · <a href="${esc(p.repositorio)}">${esc(p.repositorio.replace(/^https?:\/\//, ""))}</a>` : ""}</p>
       </article>`))}
+
+    ${site ? `<p class="cv-site"><strong>Portfólio online:</strong> <a href="${esc(site)}">${esc(siteLabel)}</a> <span>· projetos, experiência e mais informações</span></p>` : ""}
 
     <footer class="cv-foot">Gerado a partir de ${site ? esc(siteLabel) : "meu portfólio"} em ${new Date().toLocaleDateString("pt-BR")}.</footer>`;
 

@@ -14,8 +14,8 @@ window.SITE_CONTENT = {
     nome: "Luis Miguel Neitzel",
     titulo: "Analista e Desenvolvedor de Sistemas",
     local: "Domingos Martins - ES",
-    // Endereço publicado do site; aparece no rodapé do currículo. Ex.: "https://usuario.github.io/portfolio/"
-    site: "https://lmneitzel.github.io/portifolio/",
+    // Endereço publicado do site; aparece em destaque no fim do currículo. Ex.: "https://usuario.github.io/portfolio/"
+    site: "https://lmneitzel.github.io/portfolio/",
     resumo: "Sou Analista e Desenvolvedor de Sistemas, atuando na área de tecnologia desde 2018. Possuo experiência no desenvolvimento e manutenção de sistemas, com forte conhecimento em Administração Pública, análise de negócios e soluções de software. Tenho foco em desenvolvimento backend, arquitetura de sistemas e aprimoramento contínuo dos meus conhecimentos técnicos."
   },
 
