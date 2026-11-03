@@ -16,7 +16,7 @@ window.SITE_CONTENT = {
     local: "Domingos Martins - ES",
     // Endereço publicado do site; aparece no rodapé do currículo. Ex.: "https://usuario.github.io/portfolio/"
     site: "https://lmneitzel.github.io/portifolio/",
-    resumo: "Analista e Desenvolvedor de Sistemas com atuação no desenvolvimento de sistemas para a gestão pública, com foco na área contábil. Uno o conhecimento do domínio contábil do setor público à modelagem de sistemas, com atenção constante a escalabilidade e segurança. Tenho experiência com sistemas de gestão (ERP), suporte a usuários e testes de sistemas, e desenvolvo projetos pessoais com Java, Spring Boot, APIs REST e PostgreSQL."
+    resumo: "Sou Analista e Desenvolvedor de Sistemas, atuando na área de tecnologia desde 2018. Possuo experiência no desenvolvimento e manutenção de sistemas, com forte conhecimento em Administração Pública, análise de negócios e soluções de software. Tenho foco em desenvolvimento backend, arquitetura de sistemas e aprimoramento contínuo dos meus conhecimentos técnicos."
   },
 
   /* Links de contato. Deixe github/telefone como "" para ocultá-los. */
@@ -30,24 +30,26 @@ window.SITE_CONTENT = {
   /* Seção "Sobre mim": cada item vira um parágrafo. */
   sobre: {
     paragrafos: [
-      "Sou Analista e Desenvolvedor de Sistemas e minha trajetória está ligada ao desenvolvimento de sistemas para a gestão pública, principalmente na área contábil.",
-      "Meu diferencial é unir o conhecimento das regras e rotinas da contabilidade pública à forma de pensar a modelagem e a construção do sistema. Antes de escrever código, me preocupo com uma estrutura de dados sólida, com sistemas que suportem crescimento e com a segurança das informações.",
-      "Paralelamente, desenvolvo projetos pessoais com Java, Spring Boot, APIs REST e PostgreSQL, aplicando esses mesmos princípios.",
-      "Além da experiência profissional na área de tecnologia desde 2018, mantenho meu compromisso com o aprendizado contínuo, investindo em formação acadêmica e aprimoramento técnico."
+      "Sou Analista e Desenvolvedor de Sistemas, com experiência desde 2018 no desenvolvimento, manutenção e evolução de soluções tecnológicas voltadas à Administração Pública.",
+      "Ao longo dessa trajetória, tive a oportunidade de contribuir e liderar projetos relevantes para o setor, com destaque para o desenvolvimento de soluções relacionadas às prestações de contas estaduais de diferentes estados, como Espírito Santo, São Paulo, Rondônia e Minas Gerais, entre outros.",
+      "Minha experiência foi construída a partir de uma trajetória que passou pelas áreas de atendimento ao cliente, controle de qualidade e desenvolvimento de sistemas. Essa vivência em diferentes etapas do ciclo de desenvolvimento me proporcionou uma compreensão ampla tanto das necessidades dos usuários quanto dos processos e regras de negócio envolvidos, consolidando um conhecimento significativo em Administração Pública, especialmente na área contábil.",
+      "Atualmente, atuo como Analista de Sistemas, participando da análise, especificação e implementação de novas funcionalidades, além de contribuir com orientações técnicas e apoio a outros desenvolvedores na construção e evolução das soluções. No dia a dia, trabalho principalmente com PostgreSQL, Java e GWT, além de participar da organização e melhoria de processos.",
+      "Paralelamente à minha atuação profissional, desenvolvo projetos pessoais utilizando Java, Spring Boot e APIs REST, buscando aprofundar meus conhecimentos em arquitetura de software, sistemas modulares, segurança, qualidade de código, e modelagem de bancos de dados.",
+      "Acredito que meu principal diferencial está na capacidade de unir conhecimento técnico e domínio do negócio. Compreender como os processos funcionam, identificar dificuldades reais dos usuários e transformar essas necessidades em soluções tecnológicas eficientes é o que orienta minha forma de trabalhar e desenvolver sistemas."
     ],
     interesses: [
-      "Contabilidade aplicada ao setor público",
-      "Modelagem de dados",
-      "Arquitetura de backend",
-      "Segurança de aplicações",
+      "Contabilidade Público",
+      "Modelagem de Dados",
+      "Arquitetura de Backend",
+      "Segurança de Aplicações",
       "Escalabilidade"
     ]
   },
 
   /* Diferenciais: cartões da seção "Sobre mim" e bloco do currículo. */
   diferenciais: [
-    { icone: "landmark", titulo: "Domínio da contabilidade pública", texto: "Conhecimento das regras e rotinas contábeis do setor público aplicado ao desenvolvimento de sistemas." },
-    { icone: "layers"  , titulo: "Modelagem de sistemas"           , texto: "Atenção à estrutura de dados e ao desenho do sistema desde o início do projeto." },
+    { icone: "landmark", titulo: "Domínio da Contabilidade Pública", texto: "Conhecimento das regras e rotinas contábeis do setor público aplicado ao desenvolvimento de sistemas." },
+    { icone: "layers"  , titulo: "Modelagem de Distemas"           , texto: "Atenção à estrutura de dados e ao desenho do sistema desde o início do projeto." },
     { icone: "server"  , titulo: "Escalabilidade"                  , texto: "Sistemas pensados para crescer em volume de dados e de usuários." },
     { icone: "shield"  , titulo: "Segurança"                       , texto: "Preocupação com proteção, controle de acesso e integridade das informações." }
   ],
