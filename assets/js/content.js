@@ -164,6 +164,23 @@ window.SITE_CONTENT = {
       imagem: "assets/img/MEU_SISTEMA_PESSOAL.png",
       demo: "",
       repositorio: ""
+    },
+    {
+      titulo: "Sorteio de Times",
+      status: "concluido",
+      destaque: true,
+      descricao: "Aplicação web para montar times equilibrados em partidas entre amigos. Basta colar a lista de jogadores, definir a quantidade de times e o nível de cada participante: o algoritmo distribui os jogadores de forma justa, evitando times desbalanceados e discussões na hora de dividir a turma.",
+      funcionalidades: [
+        { nome: "Lista de jogadores colada (um por linha, sem repetidos)", status: "concluido" },
+        { nome: "Quantidade de times ajustável"                         , status: "concluido" },
+        { nome: "Níveis de 1 a 10 para equilibrar os times"             , status: "concluido" },
+        { nome: "Troca de jogadores entre times arrastando"             , status: "concluido" },
+        { nome: "Copiar resultado para compartilhar"                    , status: "concluido" }
+      ],
+      tecnologias: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+      imagem: "assets/img/sorteio-times.png",
+      demo: "https://lmneitzel.github.io/sorteio-times/",
+      repositorio: ""
     }
     /*
     , {
